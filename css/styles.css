@@ -6,6 +6,24 @@ body {
   color: #d6d4ca;
 }
 
+a:link {
+  text-decoration: none;
+  color: #d6d4ca;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #d6d4ca;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: none;
+}
+
 img {
   width: 200px;
 }
@@ -29,5 +47,25 @@ img {
   float: right;
   padding: 1%;
   height: 100vh;
+}
+
+.sidebar h2 {
+  margin-top: 0px;
+}
+
+.project-container {
+  display: flex;
+}
+
+#projects {
+  text-align: center;
+}
+
+.project {
+  border: 1px solid black;
+  margin: 1%;
+  padding: 1%;
+  min-width: 25%;
+  background-color: #00000036;
 }
 
