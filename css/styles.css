@@ -108,7 +108,7 @@ a:active {
 
 .project img {
   width: 95%;
-  border: 5px solid #504b2f;
+  clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
 }
 
 .project--button {
