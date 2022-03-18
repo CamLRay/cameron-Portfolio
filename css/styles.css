@@ -96,6 +96,10 @@ margin: 5%;
   background-color: #00000036;
 }
 
+.sections h2 {
+  text-decoration: underline;
+}
+
 .line {
   border-top: 2px dotted #d6d4ca;
   width: 100%;
