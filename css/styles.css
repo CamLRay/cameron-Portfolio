@@ -1,3 +1,17 @@
+body {
+  font-family: sans-serif;
+}
 img {
   width: 200px;
 }
+
+.banner {
+  color: #d6d4ca;
+  background-color: slategrey;
+  text-align: center;
+}
+
+.banner img {
+  border-radius: 50%
+}
+
