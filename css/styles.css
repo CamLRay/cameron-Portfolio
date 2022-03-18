@@ -7,24 +7,6 @@ body {
   font-size: 100%;
 }
 
-a:link {
-  text-decoration: none;
-  color: #d6d4ca;
-}
-
-a:visited {
-  text-decoration: none;
-  color: #d6d4ca;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-a:active {
-  text-decoration: none;
-}
-
 .banner {
   background-image: linear-gradient(#294644, #504b2f);
   text-align: center;
@@ -59,13 +41,14 @@ a:active {
 }
 
 .sidebar {
+  position: relative;
+  z-index: 0;
   background-image: linear-gradient(#504b2f , #294644);
   float: right;
   padding-right: 1%;
   padding-left: 1%;
   height: 100vh;
   width: 8vw;
-  font-size: 1.5vmin;
 }
 
 .sidebar h2 {
@@ -76,7 +59,26 @@ a:active {
 }
 
 .sidebar p {
-  margin: 1vmin;
+  font-size: 2vmin;
+  margin-right: 1vmin;
+}
+
+a:link {
+  text-decoration: none;
+  color: #d6d4ca;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #d6d4ca;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: none;
 }
 
 .project-container {
@@ -87,10 +89,11 @@ a:active {
 
 #projects {
   position: relative;
-  z-index: 0;
+  z-index: 1;
   text-align: left;
   font-size: 4rem;
   margin-left: 3%;
+  width: 80vw;
 }
 
 .project {
@@ -181,7 +184,7 @@ a:active {
 
  @keyframes shape3 {
    100% {
-     transform: translate(1300px, 600px) rotate(360deg);
+     transform: translate(2000px, 1000px) rotate(360deg);
    }
  }
 
