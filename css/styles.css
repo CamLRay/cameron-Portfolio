@@ -38,9 +38,14 @@ img {
   padding-top: 1%;
 }
 
+.banner h3 {
+  color:#af825b;
+}
+
 .banner img {
   border-radius: 50%;
   margin-bottom: 2%;
+  border: .25vw solid #294644;
 }
 
 .sidebar {
@@ -91,6 +96,13 @@ margin: 5%;
   background-color: #504b2f;
   padding: 5px;
   border: 1px solid black;
+  width: 9.5vw;
+  transition: .25s;
+}
+
+.project--button:hover {
+  transform:scale(110%);
+
 }
 
 .sections {

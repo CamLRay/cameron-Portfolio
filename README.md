@@ -1,4 +1,4 @@
-# _Cameron's Portfolio Website_
+# Cameron's Portfolio Website
 
 #### By **Cameron Ray**
 
