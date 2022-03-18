@@ -25,7 +25,7 @@ a:active {
 }
 
 img {
-  width: 200px;
+  width: 15%;
 }
 
 .banner {
@@ -45,12 +45,18 @@ img {
 .sidebar {
   background-image: linear-gradient(#504b2f , #294644);
   float: right;
-  padding: 1%;
+  padding-right: 1%;
+  padding-left: 1%;
   height: 100vh;
 }
 
 .sidebar h2 {
   margin-top: 0px;
+  text-decoration: underline;
+}
+
+.sidebar p {
+margin: 5%;
 }
 
 .project-container {
@@ -58,14 +64,26 @@ img {
 }
 
 #projects {
-  text-align: center;
+  text-align: left;
+  font-size: 300%;
+  margin-left: 5%;
 }
 
 .project {
-  border: 1px solid black;
+  border: 2px solid black;
   margin: 1%;
   padding: 1%;
   min-width: 25%;
   background-color: #00000036;
 }
 
+.project img {
+  width: 95%;
+  border: 5px solid #504b2f;
+}
+
+.project--button {
+  background-color: #504b2f;
+  padding: 5px;
+  border: 1px solid black;
+}
