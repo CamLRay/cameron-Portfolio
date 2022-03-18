@@ -1,5 +1,7 @@
 body {
   font-family: sans-serif;
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
 }
 img {
   width: 200px;
@@ -7,8 +9,12 @@ img {
 
 .banner {
   color: #d6d4ca;
-  background-color: slategrey;
+  background-image: linear-gradient(rgb(41, 70, 68), #504b2f);
   text-align: center;
+}
+
+.banner h1 {
+  margin-top: 0px;
 }
 
 .banner img {
