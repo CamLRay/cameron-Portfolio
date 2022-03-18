@@ -35,19 +35,25 @@ img {
 }
 
 .banner--header {
-  margin-top: 0px;
+  position: relative;
+  margin-top: 5vh;
   padding-top: 1%;
+  font-size: 4em;
+  z-index: 1;
 }
 
 .banner--subhead {
+  position: relative;
   color:#af825b;
+  font-size: 2em;
+  z-index: 1;
 }
 
 .banner--image {
   position: relative;
   border-radius: 50%;
-  margin-bottom: 2%;
   z-index: 1;
+  width: 20vw;
 }
 
 .shape img {
@@ -87,7 +93,7 @@ img {
   opacity: .05;
   transform-origin: center;
   animation: shape3 linear 20s infinite;
-  transform: translate(-200px, -100px) rotate(0deg);
+  transform: translate(-200px, -100px);
  }
 
  @keyframes shape3 {
@@ -103,7 +109,7 @@ img {
   opacity: .2;
   transform-origin: center;
   animation: shape4 linear 20s infinite 5s;
-  transform: translate(700px, 80px) rotate(0deg);
+  transform: translate(700px, 80px);
  }
 
  @keyframes shape4 {
@@ -118,13 +124,12 @@ img {
   width: 700px;
   opacity: .2;
   transform-origin: center;
-  animation: shape5 linear 20s infinite;
-  transform: rotate(0deg);
+  animation: shape5 linear 360s infinite;
  }
 
  @keyframes shape5 {
    100% {
-     transform: rotate(30deg)
+     transform: rotate(360deg)
    }
  }
 
