@@ -4,6 +4,7 @@ body {
   padding: 0px;
   background-color: #294644;
   color: #d6d4ca;
+  font-size: 100%;
 }
 
 a:link {
@@ -38,14 +39,14 @@ img {
   position: relative;
   margin-top: 5vh;
   padding-top: 1%;
-  font-size: 4em;
+  font-size: 8vmin;
   z-index: 1;
 }
 
 .banner--subhead {
   position: relative;
   color:#af825b;
-  font-size: 2em;
+  font-size: 4vmin;
   z-index: 1;
 }
 
@@ -53,7 +54,8 @@ img {
   position: relative;
   border-radius: 50%;
   z-index: 1;
-  width: 20vw;
+  height: 20vmin;
+  width: auto;
 }
 
 .shape img {
@@ -164,9 +166,11 @@ img {
 }
 
 #projects {
+  position: relative;
+  z-index: 0;
   text-align: left;
-  font-size: 300%;
-  margin-left: 5%;
+  font-size: 4rem;
+  margin-left: 3%;
 }
 
 .project {
@@ -188,13 +192,13 @@ img {
   background-color: #504b2f;
   padding: 5px;
   border: 1px solid black;
-  width: 9.5vw;
+  width: 9.5vmin;
+  min-width: 90px;
   transition: .25s;
 }
 
 .project--button:hover {
   transform:scale(110%);
-
 }
 
 .sections {
