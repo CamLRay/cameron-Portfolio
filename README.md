@@ -35,7 +35,6 @@ $ code .
 ## License
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-#### MIT license
 
 #### Feel free to contact me here with ideas. You may also make contributions to the code.
 
