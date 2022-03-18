@@ -44,18 +44,89 @@ img {
 }
 
 .banner--image {
+  position: relative;
   border-radius: 50%;
   margin-bottom: 2%;
+  z-index: 1;
 }
 
-.shape {
-  display: flex;
+.shape img {
+  position: absolute;
+  width: 100%;
+  z-index: 0;
 }
 
-@keyframes spin {
-  0% { transform: rotate(0deg);}
-  100% { transform: rotate(360deg);}
+.shape .shape1 {
+ right: -160px;
+ top: -50px;
+ width: 450px;
+ opacity: .3;
+ transform-origin: center;
+ animation: shape linear 30s infinite reverse;
 }
+
+.shape .shape2 {
+  left: -125px;
+  top: 175px;
+  width: 450px;
+  opacity: .1;
+  transform-origin: center;
+  animation: shape linear 30s infinite reverse;
+ }
+
+@keyframes shape {
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+.shape .shape3 {
+  top: 0;
+  left: -80px;
+  width: 250px;
+  opacity: .05;
+  transform-origin: center;
+  animation: shape3 linear 20s infinite;
+  transform: translate(-200px, -100px) rotate(0deg);
+ }
+
+ @keyframes shape3 {
+   100% {
+     transform: translate(1300px, 600px) rotate(360deg);
+   }
+ }
+
+ .shape .shape4 {
+  bottom: 400px;
+  left: -850px;
+  width: 150px;
+  opacity: .2;
+  transform-origin: center;
+  animation: shape4 linear 20s infinite 5s;
+  transform: translate(700px, 80px) rotate(0deg);
+ }
+
+ @keyframes shape4 {
+   100% {
+     transform: translate(1200px, -800px) rotate(360deg);
+   }
+ }
+
+ .shape .shape5 {
+  top: -500px;
+  left: 100px;
+  width: 700px;
+  opacity: .2;
+  transform-origin: center;
+  animation: shape5 linear 20s infinite;
+  transform: rotate(0deg);
+ }
+
+ @keyframes shape5 {
+   100% {
+     transform: rotate(30deg)
+   }
+ }
 
 .sidebar {
   background-image: linear-gradient(#504b2f , #294644);
@@ -65,15 +136,20 @@ img {
   height: 100vh;
   width: 8vw;
   font-size: 1.5vw;
+
 }
 
 .sidebar h2 {
+  position: relative;
   margin-top: 0px;
   text-decoration: underline;
+  z-index: 1;
 }
 
 .sidebar p {
-margin: 5%;
+  position: relative;
+  z-index: 0;
+  margin: 5%;
 }
 
 .project-container {
@@ -89,6 +165,8 @@ margin: 5%;
 }
 
 .project {
+  position: relative;
+  z-index: 0;
   border: 2px solid black;
   margin: 1%;
   padding: 1%;
