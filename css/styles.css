@@ -5,6 +5,7 @@ body {
   background-color: #294644;
   color: #d6d4ca;
   font-size: 100%;
+  width:100%;
 }
 
 .banner {
@@ -56,6 +57,7 @@ body {
   margin-top: 0px;
   text-decoration: underline;
   z-index: 1;
+  font-size: 2.5vmin;
 }
 
 .sidebar p {
