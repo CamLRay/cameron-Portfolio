@@ -21,7 +21,7 @@ _This webpage exists to act as a portfolio for future projects developed by me (
  $ git clone https://github.com/Sploob/Cameron-Portfolio.git
  ```
 * Once cloned open the webpage by clicking on the index.html file
-* Alternatively edit the code in your IDE by navigating to the my-first-webpage directory using:
+* Alternatively edit the code in your IDE by navigating to the Cameron-Portfolio directory using:
 ```
 $ cd Cameron-Portfolio
 $ code .
