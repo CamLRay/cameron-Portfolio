@@ -26,7 +26,7 @@ _This webpage exists to act as a portfolio for future projects developed by me (
 $ cd Cameron-Portfolio
 $ code .
 ```
-* _Option 3:_ View the webpage in git hub pages at the [GH-Pages link](https://sploob.github.io/Cameron-Portfolio)
+* _Option 3:_ View the webpage in git hub pages at the [GH-Pages link](https://sploob.github.io/cameron-Portfolio)
 
 ## Known Bugs
 
